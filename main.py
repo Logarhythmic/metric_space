@@ -12,7 +12,7 @@ app.geometry("700x700")
 app.title("Word Metric")
 
 # Adding UI Elements
-inputbox = customtkinter.CTkLabel(app, text="Input two words.")
+inputbox = customtkinter.CTkLabel(app, font=("default",24), text="Input two words.")
 inputbox.pack(padx=10, pady=10)
 
 # Function to refresh variables
